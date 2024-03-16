@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Multi-step form</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Linking the script -->
+    <script src="script.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e308f5f709.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- Nav Bar -->
+    <nav class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+        <div class="flex justify-between items-center px-24">
+            <!-- Text on the left -->
+            <div class="text-xl font-bold">Where in The World?</div>
+            
+            <!-- Button on the right -->
+            <button class="bg-white hover:bg-gray-100 text-black font-semibold py-2 m-2 px-4 rounded">
+                <i class="fas fa-moon"></i>
+                Dark Mode
+            </button>
+        </div>
+    </nav>
+
+    <!-- Search Section -->
+    <section class="mt-16 mx-4">
+        <div class="flex items-center justify-between mb-4 px-20 py-10">
+            <!-- Search Bar -->
+            <div class="relative">
+                <input type="text" placeholder="Search..." class="py-2 px-4 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 w-64 pl-10">
+                <span class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                  <i class="fas fa-search text-gray-400"></i>
+                </span>
+            </div>
+            
+            <!-- Filter Button -->
+            <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-md ml-4">Filter</button>
+        </div>
+    </section>
+</body>
+</html>
